@@ -101,6 +101,8 @@ void Write(){
 }
 
 int main(){
+	freopen("Data.in", "r", stdin);
+	freopen("Value.out", "w", stdout);
 	std::ios::sync_with_stdio(false);
 	std::cin.tie(nullptr);
 	std::cout.tie(nullptr);
